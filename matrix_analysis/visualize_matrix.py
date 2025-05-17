@@ -44,8 +44,8 @@ def visualize_matrix(matrix, title_text, colormap_func=create_custom_colormap, f
         ax.set_title(title_with_max, fontsize=14)
         
         # Отмечаем точки максимального и минимального значения
-        ax.plot(max_pos[1], max_pos[0], 'ro', markersize=10, linewidth=2)
-        ax.plot(min_pos[1], min_pos[0], 'go', markersize=10, linewidth=2)
+        #ax.plot(max_pos[1], max_pos[0], 'ro', markersize=10, linewidth=2)
+        #ax.plot(min_pos[1], min_pos[0], 'go', markersize=10, linewidth=2)
     else:
         ax.set_title(title_text, fontsize=14)
     
