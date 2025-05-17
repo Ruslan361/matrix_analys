@@ -4,13 +4,13 @@ import os
 from datetime import datetime
 
 # Импорт собственных функций
-from build_L_matrix import build_L_matrix
-from visualize_matrix import visualize_matrix
-from visualize_eigenvalues import visualize_eigenvalues
-from display_matrix_blocks import display_matrix_blocks
-from compute_matrix_rank import compute_matrix_rank
-from create_custom_colormap import create_custom_colormap
-from matrix_analysis_functions import save_characteristic_polynomial
+from .build_L_matrix import build_L_matrix
+from .visualize_matrix import visualize_matrix
+from .visualize_eigenvalues import visualize_eigenvalues
+from .display_matrix_blocks import display_matrix_blocks
+from .compute_matrix_rank import compute_matrix_rank
+from .create_custom_colormap import create_custom_colormap
+from .matrix_analysis_functions import save_characteristic_polynomial
 
 
 def main():

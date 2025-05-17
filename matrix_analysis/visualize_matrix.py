@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
-from create_custom_colormap import create_custom_colormap
+from .create_custom_colormap import create_custom_colormap
 
 
 def visualize_matrix(matrix, title_text, colormap_func=create_custom_colormap, filename=None, show_max_value=False, ax=None):
