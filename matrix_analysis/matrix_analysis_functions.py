@@ -2,12 +2,12 @@ import numpy as np
 import os
 from datetime import datetime
 import matplotlib.pyplot as plt
-from compute_matrix_rank import compute_matrix_rank
-from visualize_matrix import visualize_matrix
-from visualize_eigenvalues import visualize_eigenvalues
-from create_custom_colormap import create_custom_colormap
-from display_matrix_blocks import display_matrix_blocks
-from save_matrix_to_file import save_matrix_to_file
+from .compute_matrix_rank import compute_matrix_rank
+from .visualize_matrix import visualize_matrix
+from .visualize_eigenvalues import visualize_eigenvalues
+from .create_custom_colormap import create_custom_colormap
+from .display_matrix_blocks import display_matrix_blocks
+from .save_matrix_to_file import save_matrix_to_file
 
 
 def save_vector_to_file(vector, description, filename):
